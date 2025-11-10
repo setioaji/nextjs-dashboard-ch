@@ -16,3 +16,6 @@ tamba database
 - mengambil data menggunakan parameter dan tidak parameter
 - ui dan data bisa di gunakan bersamaan (uji coba dari lib/data.ts fetchRevenue())
 - Don't be afraid to experiment with Suspense and see what works best, it's a powerful API that can help you create more delightful user experiences.
+
+# ch10 Adding Search and Pagination
+- butuh pemahaman extra
