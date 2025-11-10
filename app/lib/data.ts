@@ -62,6 +62,11 @@ export async function fetchCardData() {
          SUM(CASE WHEN status = 'pending' THEN amount ELSE 0 END) AS "pending"
          FROM invoices`;
 
+
+    // In JavaScript, you can use the Promise.all() or Promise.allSettled() functions to initiate all promises at the same time. 
+    // For example, in data.ts, we're using Promise.all() in the fetchCardData() function:
+    // docs : https://nextjs.org/learn/dashboard-app/fetching-data
+    
     const data = await Promise.all([
       invoiceCountPromise,
       customerCountPromise,
