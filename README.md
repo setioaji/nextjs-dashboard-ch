@@ -6,3 +6,7 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 # chapter6 
 tamba database 
+
+# ch8 Static and Dynamic Rendering
+- di jelaskan bahwa chapter sebelumnya masih static rendering
+- kedepannya akan dinamik render
